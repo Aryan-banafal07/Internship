@@ -4,13 +4,18 @@ rows = 5
 print("Lower Triangular Pattern:")
 for i in range(1, rows + 1):
     print("* " * i)
-print()  # Blank line for separation
+print()  
+
+
 
 # Upper Triangular Pattern
 print("Upper Triangular Pattern:")
 for i in range(rows, 0, -1):
     print("* " * i)
-print()  # Blank line for separation
+print() 
+
+
+
 
 # Pyramid Pattern
 print("Pyramid Pattern:")
